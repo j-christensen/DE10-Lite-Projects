@@ -1,0 +1,7 @@
+
+State Machine - |Clock_Top|ClkState
+Name ClkState.SetSec ClkState.SetMin ClkState.SetHr ClkState.Run 
+ClkState.Run 0 0 0 0 
+ClkState.SetHr 0 0 1 1 
+ClkState.SetMin 0 1 0 1 
+ClkState.SetSec 1 0 0 1 

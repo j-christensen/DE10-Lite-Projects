@@ -1,0 +1,152 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate /home/justin/GitRepos/DE10-Lite-Projects/HelloWorld/hellow_world.qsys --block-symbol-file --output-directory=/home/justin/GitRepos/DE10-Lite-Projects/HelloWorld/hellow_world --family="MAX 10" --part=10M50DAF484C6GES
+Progress: Loading HelloWorld/hellow_world.qsys
+Progress: Reading input file
+Progress: Adding button [altera_avalon_pio 20.1]
+Progress: Parameterizing module button
+Progress: Adding clk [clock_source 20.1]
+Progress: Parameterizing module clk
+Progress: Adding cpu [altera_nios2_gen2 20.1]
+Progress: Parameterizing module cpu
+Progress: Adding hex0 [altera_avalon_pio 20.1]
+Progress: Parameterizing module hex0
+Progress: Adding hex1 [altera_avalon_pio 20.1]
+Progress: Parameterizing module hex1
+Progress: Adding hex2 [altera_avalon_pio 20.1]
+Progress: Parameterizing module hex2
+Progress: Adding hex3 [altera_avalon_pio 20.1]
+Progress: Parameterizing module hex3
+Progress: Adding hex4 [altera_avalon_pio 20.1]
+Progress: Parameterizing module hex4
+Progress: Adding hex5 [altera_avalon_pio 20.1]
+Progress: Parameterizing module hex5
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 20.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding led [altera_avalon_pio 20.1]
+Progress: Parameterizing module led
+Progress: Adding onchip_memory [altera_avalon_onchip_memory2 20.1]
+Progress: Parameterizing module onchip_memory
+Progress: Adding switch [altera_avalon_pio 20.1]
+Progress: Parameterizing module switch
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: hellow_world.button: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hellow_world.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: hellow_world.switch: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate /home/justin/GitRepos/DE10-Lite-Projects/HelloWorld/hellow_world.qsys --synthesis=VERILOG --output-directory=/home/justin/GitRepos/DE10-Lite-Projects/HelloWorld/hellow_world/synthesis --family="MAX 10" --part=10M50DAF484C6GES
+Progress: Loading HelloWorld/hellow_world.qsys
+Progress: Reading input file
+Progress: Adding button [altera_avalon_pio 20.1]
+Progress: Parameterizing module button
+Progress: Adding clk [clock_source 20.1]
+Progress: Parameterizing module clk
+Progress: Adding cpu [altera_nios2_gen2 20.1]
+Progress: Parameterizing module cpu
+Progress: Adding hex0 [altera_avalon_pio 20.1]
+Progress: Parameterizing module hex0
+Progress: Adding hex1 [altera_avalon_pio 20.1]
+Progress: Parameterizing module hex1
+Progress: Adding hex2 [altera_avalon_pio 20.1]
+Progress: Parameterizing module hex2
+Progress: Adding hex3 [altera_avalon_pio 20.1]
+Progress: Parameterizing module hex3
+Progress: Adding hex4 [altera_avalon_pio 20.1]
+Progress: Parameterizing module hex4
+Progress: Adding hex5 [altera_avalon_pio 20.1]
+Progress: Parameterizing module hex5
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 20.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding led [altera_avalon_pio 20.1]
+Progress: Parameterizing module led
+Progress: Adding onchip_memory [altera_avalon_onchip_memory2 20.1]
+Progress: Parameterizing module onchip_memory
+Progress: Adding switch [altera_avalon_pio 20.1]
+Progress: Parameterizing module switch
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: hellow_world.button: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hellow_world.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: hellow_world.switch: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hellow_world: Generating hellow_world "hellow_world" for QUARTUS_SYNTH
+Info: button: Starting RTL generation for module 'hellow_world_button'
+Info: button:   Generation command is [exec /home/justin/intelFPGA_lite/20.1/quartus/linux64/perl/bin/perl -I /home/justin/intelFPGA_lite/20.1/quartus/linux64/perl/lib -I /home/justin/intelFPGA_lite/20.1/quartus/sopc_builder/bin/europa -I /home/justin/intelFPGA_lite/20.1/quartus/sopc_builder/bin -I /home/justin/intelFPGA_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/justin/intelFPGA_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /home/justin/intelFPGA_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=hellow_world_button --dir=/tmp/alt8528_7664385500649448930.dir/0002_button_gen/ --quartus_dir=/home/justin/intelFPGA_lite/20.1/quartus --verilog --config=/tmp/alt8528_7664385500649448930.dir/0002_button_gen//hellow_world_button_component_configuration.pl  --do_build_sim=0  ]
+Info: button: Done RTL generation for module 'hellow_world_button'
+Info: button: "hellow_world" instantiated altera_avalon_pio "button"
+Info: cpu: "hellow_world" instantiated altera_nios2_gen2 "cpu"
+Info: hex0: Starting RTL generation for module 'hellow_world_hex0'
+Info: hex0:   Generation command is [exec /home/justin/intelFPGA_lite/20.1/quartus/linux64/perl/bin/perl -I /home/justin/intelFPGA_lite/20.1/quartus/linux64/perl/lib -I /home/justin/intelFPGA_lite/20.1/quartus/sopc_builder/bin/europa -I /home/justin/intelFPGA_lite/20.1/quartus/sopc_builder/bin -I /home/justin/intelFPGA_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/justin/intelFPGA_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /home/justin/intelFPGA_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=hellow_world_hex0 --dir=/tmp/alt8528_7664385500649448930.dir/0003_hex0_gen/ --quartus_dir=/home/justin/intelFPGA_lite/20.1/quartus --verilog --config=/tmp/alt8528_7664385500649448930.dir/0003_hex0_gen//hellow_world_hex0_component_configuration.pl  --do_build_sim=0  ]
+Info: hex0: Done RTL generation for module 'hellow_world_hex0'
+Info: hex0: "hellow_world" instantiated altera_avalon_pio "hex0"
+Info: jtag_uart: Starting RTL generation for module 'hellow_world_jtag_uart'
+Info: jtag_uart:   Generation command is [exec /home/justin/intelFPGA_lite/20.1/quartus/linux64/perl/bin/perl -I /home/justin/intelFPGA_lite/20.1/quartus/linux64/perl/lib -I /home/justin/intelFPGA_lite/20.1/quartus/sopc_builder/bin/europa -I /home/justin/intelFPGA_lite/20.1/quartus/sopc_builder/bin -I /home/justin/intelFPGA_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/justin/intelFPGA_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- /home/justin/intelFPGA_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=hellow_world_jtag_uart --dir=/tmp/alt8528_7664385500649448930.dir/0004_jtag_uart_gen/ --quartus_dir=/home/justin/intelFPGA_lite/20.1/quartus --verilog --config=/tmp/alt8528_7664385500649448930.dir/0004_jtag_uart_gen//hellow_world_jtag_uart_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart: Done RTL generation for module 'hellow_world_jtag_uart'
+Info: jtag_uart: "hellow_world" instantiated altera_avalon_jtag_uart "jtag_uart"
+Info: led: Starting RTL generation for module 'hellow_world_led'
+Info: led:   Generation command is [exec /home/justin/intelFPGA_lite/20.1/quartus/linux64/perl/bin/perl -I /home/justin/intelFPGA_lite/20.1/quartus/linux64/perl/lib -I /home/justin/intelFPGA_lite/20.1/quartus/sopc_builder/bin/europa -I /home/justin/intelFPGA_lite/20.1/quartus/sopc_builder/bin -I /home/justin/intelFPGA_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/justin/intelFPGA_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /home/justin/intelFPGA_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=hellow_world_led --dir=/tmp/alt8528_7664385500649448930.dir/0005_led_gen/ --quartus_dir=/home/justin/intelFPGA_lite/20.1/quartus --verilog --config=/tmp/alt8528_7664385500649448930.dir/0005_led_gen//hellow_world_led_component_configuration.pl  --do_build_sim=0  ]
+Info: led: Done RTL generation for module 'hellow_world_led'
+Info: led: "hellow_world" instantiated altera_avalon_pio "led"
+Info: onchip_memory: Starting RTL generation for module 'hellow_world_onchip_memory'
+Info: onchip_memory:   Generation command is [exec /home/justin/intelFPGA_lite/20.1/quartus/linux64/perl/bin/perl -I /home/justin/intelFPGA_lite/20.1/quartus/linux64/perl/lib -I /home/justin/intelFPGA_lite/20.1/quartus/sopc_builder/bin/europa -I /home/justin/intelFPGA_lite/20.1/quartus/sopc_builder/bin -I /home/justin/intelFPGA_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/justin/intelFPGA_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- /home/justin/intelFPGA_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=hellow_world_onchip_memory --dir=/tmp/alt8528_7664385500649448930.dir/0006_onchip_memory_gen/ --quartus_dir=/home/justin/intelFPGA_lite/20.1/quartus --verilog --config=/tmp/alt8528_7664385500649448930.dir/0006_onchip_memory_gen//hellow_world_onchip_memory_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory: Done RTL generation for module 'hellow_world_onchip_memory'
+Info: onchip_memory: "hellow_world" instantiated altera_avalon_onchip_memory2 "onchip_memory"
+Info: switch: Starting RTL generation for module 'hellow_world_switch'
+Info: switch:   Generation command is [exec /home/justin/intelFPGA_lite/20.1/quartus/linux64/perl/bin/perl -I /home/justin/intelFPGA_lite/20.1/quartus/linux64/perl/lib -I /home/justin/intelFPGA_lite/20.1/quartus/sopc_builder/bin/europa -I /home/justin/intelFPGA_lite/20.1/quartus/sopc_builder/bin -I /home/justin/intelFPGA_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/justin/intelFPGA_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /home/justin/intelFPGA_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=hellow_world_switch --dir=/tmp/alt8528_7664385500649448930.dir/0007_switch_gen/ --quartus_dir=/home/justin/intelFPGA_lite/20.1/quartus --verilog --config=/tmp/alt8528_7664385500649448930.dir/0007_switch_gen//hellow_world_switch_component_configuration.pl  --do_build_sim=0  ]
+Info: switch: Done RTL generation for module 'hellow_world_switch'
+Info: switch: "hellow_world" instantiated altera_avalon_pio "switch"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_008: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_009: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_010: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_011: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "hellow_world" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "hellow_world" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "hellow_world" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'hellow_world_cpu_cpu'
+Info: cpu:   Generation command is [exec /home/justin/intelFPGA_lite/20.1/quartus/linux64//perl/bin/perl -I /home/justin/intelFPGA_lite/20.1/quartus/linux64//perl/lib -I /home/justin/intelFPGA_lite/20.1/quartus/sopc_builder/bin/europa -I /home/justin/intelFPGA_lite/20.1/quartus/sopc_builder/bin -I /home/justin/intelFPGA_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I /home/justin/intelFPGA_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I /home/justin/intelFPGA_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I /home/justin/intelFPGA_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- /home/justin/intelFPGA_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.pl --name=hellow_world_cpu_cpu --dir=/tmp/alt8528_7664385500649448930.dir/0010_cpu_gen/ --quartus_bindir=/home/justin/intelFPGA_lite/20.1/quartus/linux64/ --verilog --config=/tmp/alt8528_7664385500649448930.dir/0010_cpu_gen//hellow_world_cpu_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2020.09.22 20:46:53 (*) Starting Nios II generation
+Info: cpu: # 2020.09.22 20:46:53 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2020.09.22 20:46:53 (*)   Creating all objects for CPU
+Info: cpu: # 2020.09.22 20:46:53 (*)   Generating RTL from CPU objects
+Info: cpu: # 2020.09.22 20:46:53 (*)   Creating plain-text RTL
+Info: cpu: # 2020.09.22 20:46:54 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'hellow_world_cpu_cpu'
+Info: cpu: "cpu" instantiated altera_nios2_gen2_unit "cpu"
+Info: cpu_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "cpu_data_master_translator"
+Info: jtag_uart_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_avalon_jtag_slave_translator"
+Info: cpu_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "cpu_data_master_agent"
+Info: jtag_uart_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_avalon_jtag_slave_agent"
+Info: jtag_uart_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_001"
+Info: Reusing file /home/justin/GitRepos/DE10-Lite-Projects/HelloWorld/hellow_world/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file /home/justin/GitRepos/DE10-Lite-Projects/HelloWorld/hellow_world/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file /home/justin/GitRepos/DE10-Lite-Projects/HelloWorld/hellow_world/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: hellow_world: Done "hellow_world" with 30 modules, 42 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

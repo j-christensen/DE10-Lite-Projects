@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Tue Sep 22 20:18:39 2020
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : Clock_Top
+Top-level Entity Name : Clock_Top
+Family : MAX 10
+Total logic elements : 552
+    Total combinational functions : 514
+    Dedicated logic registers : 138
+Total registers : 138
+Total pins : 71
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0
